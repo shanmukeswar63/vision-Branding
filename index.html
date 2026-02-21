@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Powered Branding Automation System</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Powered Branding Automation System</h1>
+  
+  <div class="container">
+    <p class="branding-text">Automate your brand identity with AI ✨</p>
+    
+    <!-- User Input Section -->
+    <div class="input-section">
+      <input type="text" id="customTagline" placeholder="Enter your own tagline..." />
+      <input type="color" id="customColor" />
+      <button class="btn" onclick="applyCustom()">Apply Custom Branding</button>
+    </div>
+
+    <!-- Control Buttons -->
+    <div class="controls">
+      <button class="btn" onclick="generateTagline()">Generate Tagline</button>
+      <button class="btn" onclick="generateColor()">Generate Brand Color</button>
+      <button class="btn" onclick="showDrawback()">Show Drawback</button>
+    </div>
+    
+    <!-- Output Section -->
+    <div class="output" id="output">Your branding results will appear here...</div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
